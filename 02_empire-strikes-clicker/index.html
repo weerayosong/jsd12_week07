@@ -106,15 +106,14 @@
                         and DOM Manipulation. Apologies for any unintended
                         errors.
                     </p>
-                    <p class="text-xl my-2 text-white">
-                        May the Force be with you
-                    </p>
+                    <p class="text-xl text-white">May the Force be with you</p>
                 </div>
-                <!-- <i class="hidden md:block shrink-0 z-10 relative"></i> -->
-                <strong class="text-4xl text-yellow-400 uppercase"
+                <!-- <i class="hidden md:block shrink-0 z-10 relative"></i
+                > -->
+                <strong class="text-md md:text-4xl text-yellow-400 uppercase"
                     >Empire strikes CLICKER!</strong
                 >
-                <p>by weerayosong</p>
+                <p class="text-xs md:text-md">by weerayosong</p>
             </div>
 
             <div
@@ -434,7 +433,7 @@
                 'touchend',
                 function (event) {
                     let now = new Date().getTime();
-                    if (now - lastTouchEnd <= 300) {
+                    if (now - lastTouchEnd <= 100) {
                         event.preventDefault();
                     }
                     lastTouchEnd = now;
